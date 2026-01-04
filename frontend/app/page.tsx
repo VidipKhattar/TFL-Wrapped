@@ -119,7 +119,7 @@ export default function Home() {
             Created by Vidip Khattar |{" "}
           </a>
           <a
-            href="https://github.com/VidipKhattar/fifa_predictor"
+            href="https://github.com/VidipKhattar/TFL-Wrapped"
             target="_blank"
             rel="noopener noreferrer"
             className="text-4xl md:text-3xl font-bold"

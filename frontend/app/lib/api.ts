@@ -1,7 +1,7 @@
 import { WrappedData } from '../types'
 
 //const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
-const API_BASE_URL = 'https://tfl-wrapped-production.up.railway.app/'
+const API_BASE_URL = 'https://tfl-wrapped-production.up.railway.app'
 
 export async function fetchWrappedData(): Promise<WrappedData> {
   try {
