@@ -10,9 +10,13 @@ from csv_parser import load_and_normalize_csv
 
 app = FastAPI(title="TFL Wrapped API", version="1.0.0")
 
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:3001"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://tfl-wrapped.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
